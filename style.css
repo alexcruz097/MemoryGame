@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#game {
+  overflow-x: none;
+  width: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+#game div {
+  border: 1px solid black;
+  height: 200px;
+  margin: 10px;
+}
+.modal-end {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  z-index: 1;
+  display: none;
+}
+
+
+.modal-start{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: rgba(46, 182, 164, 0.826);
+  color: white;
+  z-index: 1;
+  min-height: 100%;
+}
+.modal button{
+  cursor: pointer;
+}
